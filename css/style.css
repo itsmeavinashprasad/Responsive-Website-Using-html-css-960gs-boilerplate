@@ -4,8 +4,9 @@ body {
 }
 
 
-#main {
-    background:red;
+.main {
+    background: url(../img/back.jpg) fixed;
+    padding: 0px;
 }
 
 /* image link of the brand */
@@ -14,16 +15,7 @@ body {
     width: 30px;
     filter: invert(1);
 }
-width:200px;
-z-index:10;
-color:#fff;
-text-align:center;
-top:50%;
-left:65%;
-bottom:auto;
--webkit-transform:translate(0, -50%);
--ms-transform:translate(0, -50%);
-transform:translate(0, -50%);
+
 
 #brand-name {
     color: white;
@@ -102,19 +94,65 @@ transform:translate(0, -50%);
 
 /* End carousel settings */
 
+
+/* Three section settings */
 #three-section-heading {
     margin: auto;   
 }
-
+#sect3wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 #three-section-boxes{
-    min-height: 350px;
+    height: 350px;
 }
 
-#two-section-boxes {
-    min-height: 500px;
+
+@media (max-width: 992px){
+    #sect3wrapper {
+        flex-direction: column;
+    }
+    .col-sm-4{
+        width: 100%;
+        height: auto;
+    }
+    #three-section-boxes {
+        height: auto;
+        width: 100%;
+    }
 }
+/* end Three section settings */
+
+/* Two section settings */
+#sect2wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#two-section-boxes {
+    height: 580px;
+}
+@media (max-width: 1200px){
+    #two-section-boxes {
+        height: 630px;
+    }
+}
+@media (max-width: 992px){
+    #sect2wrapper {
+        flex-direction: column;
+    }
+    .col-sm-6{
+        width: 100%;
+        height: auto;
+    }
+    #two-section-boxes {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* END Two section settings */
 
 .type-1 {
 	max-width: 480px;
@@ -149,9 +187,25 @@ textarea {
 	cursor: pointer;
 }
 fieldset{
-	border: 1px solid black;
+	border: 1px sothreelid black;
 	padding-left: 10px;
 }
+
+/* footer settings */
+#footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: url(../img/footer_back.jpg);
+    padding: 10px;
+}
+#footer-boxes {
+    background: transparent;
+    color: white;
+}
+@media (max-width: 1200px){
+    
+}
+/* end footer settings */
 .social li{
 	display: inline;
 	padding-right: 10px;
@@ -159,6 +213,6 @@ fieldset{
 .social img{
 	height: 35px;
 	width: 35px;
-	/* filter: invert(1); */
+	filter: invert(1);
 
 }
