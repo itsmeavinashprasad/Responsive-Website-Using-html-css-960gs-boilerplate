@@ -17,9 +17,6 @@ body {
     background: url(../img/footer_back.jpg);
     border-style: none;
 }
-#nav-form, #navlinks {
-    font-family: 'Quicksand', sans-serif;
-}
 /* image link of the brand */
 #logo-image {
     height: 30px;
@@ -82,15 +79,10 @@ body {
     margin: 60px auto 20px auto;
     max-height: 600px;
     max-width: 1200px;
-    /* width: 1000px; */
-    background: blue;
 }
 #my-carousel .item{
     height: 500px;
     width: 1000px;
-}
-.carousel-caption h4{
-    font-family: 'Quicksand', sans-serif;
 }
 #slide1 {
     background: url(../img/item1_1280-1200x600.jpg) top center no-repeat;
@@ -134,7 +126,6 @@ body {
 #three-section-heading {
     margin: auto;
     padding: 0px 10px; 
-    font-family: 'Quicksand', sans-serif;
     color: white;
     background: rgb(0,0,0,0.8);
     text-align: center;
@@ -147,7 +138,6 @@ body {
 }
 
 #three-section-boxes h3{
-    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 #three-section-boxes{
@@ -158,7 +148,6 @@ body {
 #three-section-boxes p {
     padding: 10px;
     text-align: justify;
-    font-family: 'Quicksand', sans-serif;
 }
 
 @media (max-width: 1199px){
@@ -231,15 +220,11 @@ body {
 #tab1, #tab2 {
     color: white;
     padding: 10px;
-    font-family: 'Quicksand', sans-serif;
     text-align: justify;
 }
 #tab1, #tab2 p{
     margin: 10px;
     font-size: 15px;
-}
-#tab-head{
-    font-family: 'Quicksand', sans-serif;
 }
 /* end Tabs styling */
 
@@ -263,7 +248,6 @@ body {
 	height: 30px;
 	border-radius: 5px;
     margin: 10px auto;	
-    font-family: 'Quicksand', sans-serif;
     color: black;
 }
 
@@ -275,7 +259,6 @@ body {
 	border-style: none;
     font-size: 15px;
     color: black;
-    font-family: 'Quicksand', sans-serif;
     color: black;
     
 }
@@ -290,13 +273,11 @@ textarea {
 	border-radius: 5px;
 	margin: 10px auto;
     resize: none;	
-    font-family: 'Quicksand', sans-serif;
     color: black;
 }
 
 .label_select {
     cursor: pointer;
-    font-family: 'Quicksand', sans-serif;
     font-size: 16px;    
 }
 fieldset{
@@ -304,7 +285,6 @@ fieldset{
     border: 1px solid white;
     padding: 10px;
     height: auto;
-    font-family: 'Quicksand', sans-serif;
 }
 legend {
     color: white;
@@ -315,7 +295,6 @@ legend {
     padding: 0px 10px;
 }
 .list-group-item-header{
-    font-family: 'Quicksand', sans-serif;
 }
 .list-group-item-header:hover {
     letter-spacing: 5px;
@@ -325,7 +304,6 @@ a.list-group-item {
     background: transparent;
     color: white;
     text-align: justify;
-    font-family: 'Quicksand', sans-serif;
 }
 a.list-group-item:hover{
     background: rgb(230,230,230);
@@ -348,7 +326,6 @@ a.list-group-item:focus {
     flex-wrap: wrap;
     margin: 0px;
     /* padding: 10px 20px; */
-    font-family: 'Quicksand', sans-serif;
 
 }
 .footer-col {
