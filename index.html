@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Page Title</title>
+	<title>Darkroom</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,9 +27,12 @@
 	<!-- end link custome css file -->
 
 	<!-- link google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans|Quicksand|Lexend+Giga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Lexend+Giga&display=swap" rel="stylesheet">
 	<!-- end link google fonts -->
 
+	<!-- link icon to title -->
+	<link rel="icon" href="img/icon.gif" type="image/gif" sizes="16x16" >
+	<!-- end link icon to title -->
 	
 	
 
@@ -42,16 +45,16 @@
 	<![endif]-->
 	
 	<!-- custom html codes -->
-	<div class="main">
+	<section class="main">
 
-		<div class="container" >
+		<section class="container" >
 	
 			<!-- Code for navigation bar -->
-			<nav class="navbar navbar-default navbar-fixed-top" style="background: orange;">
-				<div class="container-fluid">
+			<nav class="navbar navbar-default navbar-fixed-top" id="navbar-back">
+				<section class="container-fluid">
 	
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
+					<section class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
@@ -62,10 +65,10 @@
 								<img alt="Darkroom" src="img/icon.svg" id="logo-image">
 							</a>
 							<a class="navbar-brand" href="index.html" id="brand-name"> Darkroom</a>
-					</div>
+					</section>
 						
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<section class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav" id="navlinks">
 							
 							<li><a href="#" style="color: white;">Categories</a></li>
@@ -74,21 +77,21 @@
 							<li><a href="#" style="color: white;">Our Locations</a></li>
 							
 						</ul>
-						<form class="navbar-form navbar-right">
-							<div class="form-group">
+						<form class="navbar-form navbar-right" id="nav-form">
+							<section class="form-group">
 								<input type="text" class="form-control" placeholder="Search images">
-							</div>
+							</section>
 							<button type="submit" class="btn btn-default">Submit</button>
 						</form>
 				
 				
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
+					</section><!-- /.navbar-collapse -->
+				</section><!-- /.container-fluid -->
 			</nav>
 			<!-- end Code for navigation bar -->
 			
 			<!-- code for carousel -->
-			<div id="my-carousel" class="carousel slide" data-ride="carousel">
+			<section id="my-carousel" class="carousel slide" data-ride="carousel">
 	
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -99,36 +102,36 @@
 				</ol>
 	
 				<!-- Wrapper for slides -->
-				<div class="carousel-inner" >
+				<section class="carousel-inner" >
 					<!-- item 1 -->
-					<div class="item active" id="slide1">
-						<div class="carousel-caption">
+					<section class="item active" id="slide1">
+						<section class="carousel-caption">
 							<h4>The camera is an excuse to be someplace you otherwise don’t belong. It gives me both a point of connection and a point of separation</h4>
-						</div> <!--end caption-->
-					</div> <!--end item-->
+						</section> <!--end caption-->
+					</section> <!--end item-->
 		
 					<!-- item 2 -->
-					<div class="item" id="slide2">
-						<div class="carousel-caption">
+					<section class="item" id="slide2">
+						<section class="carousel-caption">
 							<h4>Shanty under a dark sky</h4>
-						</div> <!--end caption-->
-					</div> <!--end item-->
+						</section> <!--end caption-->
+					</section> <!--end item-->
 					
 					<!-- item 3 -->
-					<div class="item" id="slide3">
-						<div class="carousel-caption">
+					<section class="item" id="slide3">
+						<section class="carousel-caption">
 							<h4>Whether its the dress rehearsal or the performance itself, I can be there to capture the excitement of the live performances</h4>
-						</div> <!--end caption-->
-					</div> <!--end item-->
+						</section> <!--end caption-->
+					</section> <!--end item-->
 		
 					<!-- item 4 -->
-					<div class="item" id="slide4">
-						<div class="carousel-caption">
+					<section class="item" id="slide4">
+						<section class="carousel-caption">
 							<h4>Look and think before opening the shutter. The heart and mind are the true lens of the camera</h4>
-						</div> <!--end caption-->
-					</div> <!--end item-->
+						</section> <!--end caption-->
+					</section> <!--end item-->
 		
-				</div> <!-- end wrapper-->
+				</section> <!-- end wrapper-->
 	
 				<!-- Controls -->
 				<a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
@@ -137,102 +140,145 @@
 				<a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
 						<span class="icon-next" aria-hidden="true"></span>
 				</a>
-			</div><!-- end carousel -->
+			</section><!-- end carousel -->
 			
 			<!-- end code for carousel -->
 			
 	
 	
 			<!-- code for three-section-heading -->
-			<div class="row" id="three-section-heading">
-				<div class="col-12">
+			<section class="row" id="three-section-heading">
+				<section class="col-12">
 					<h3>Why photography</h3>
-				</div> <!-- end col-12-->
-			</div> <!--end row-->
+				</section> <!-- end col-12-->
+			</section> <!--end row-->
 			<!-- end code for three-section-heading -->
 			
 			<!-- code for three-section-boxes -->
-			<div class="row" id="sect3wrapper">
+			<section class="row" id="sect3wrapper">
 				<!-- three-section-box 1 -->
-				<div class="col-sm-4" >
-					<div class="panel" id="three-section-boxes">
-						<div class="panel-heading">
+				<section class="col-sm-4" >
+					<section class="panel" id="three-section-boxes">
+						<section class="panel-heading">
 							<h3>It's a healthy challenge</h3>
-						</div>
+						</section>
 						<p>
 							There are endless ways to challenge yourself with photography; you can always learn something new. There is no shortage of new techniques, genres, projects, equipment, inspiration, and workshops to take in this field. I’ve spent more than two years devouring photography information and I know there is still so much for me to learn and try. 
 							I also see every picture as a challenge. It is like a puzzle I get to solve. How do I use what I’ve learned to capture this moment in time in a more powerful way, making my viewer linger longer and feel more?
 						</p>
-					</div>
-				</div><!--end col-sm-4-->
+					</section>
+				</section><!--end col-sm-4-->
 				<!-- end three-section-boxes 1 -->
 	
 				<!-- three-section-box 2 -->
-				<div class="col-sm-4">
-					<div class="panel" id="three-section-boxes">
-						<div class="panel-heading">
+				<section class="col-sm-4">
+					<section class="panel" id="three-section-boxes">
+						<section class="panel-heading">
 							<h3>It motivates you to experience more</h3>
-						</div>
+						</section>
 						<p>
 							With photography as a hobby, I always want to get the family out doing something. Even if it is just taking a walk or setting up a sprinkler in the backyard, I know that us doing anything together will give me opportunities to practice and capture great memories. Sometimes I feel a little guilty about my motivations, but I know that our whole family has gotten to experience so much more together because of my photography.
 						</p>
-					</div>
-				</div><!--end col-sm-4-->
+					</section>
+				</section><!--end col-sm-4-->
 				<!-- end three-section-box 2 -->
 	
 				<!-- three-section-box 3 -->
-				<div class="col-sm-4">
-					<div class="panel" id="three-section-boxes">
-						<div class="panel-heading">
+				<section class="col-sm-4">
+					<section class="panel" id="three-section-boxes">
+						<section class="panel-heading">
 							<h3>It connects you with others</h3>
-						</div>
+						</section>
 						<p>
 							Everyone loves a good picture, so photography is an easy way to connect to people. I love to be able to share our lives through my photos. It is another way to stay in contact with far away family and friends.
 							I also cannot say enough about how supportive and inspiring I’ve found the photography communities, such as Clickin Moms and Instagram. I’ve really enjoyed connecting with those around the world who share the same interest in learning to capture their lives better.
 						</p>
-					</div>
-				</><!--end col-sm-4-->
+					</section>
+				</section><!--end col-sm-4-->
 				<!-- end three-section-box 3 -->
 	
-			</div> <!--end row-->
+			</section> <!--end row-->
 			<!-- end code for three-section-boxes -->
 	
 	
 			<!-- code for two-section-boxes -->
-			<div class="row" style="margin: auto;" id="sect2wrapper">
-				<!-- code for form -->
-				<div class="col-sm-6" >
-					<div class="panel" id="two-section-boxes"  >
-						<form name="myform" method="get" id="form-wrapper" style="padding: 10px 20px;">
-								<fieldset>
-								<legend>Mark Your Presence Here</legend>
-								<label for="name" class="label_select">Name</label><br>
-								<input type="text" name="name" class="type-1" placeholder="Your Name" id="name" maxlength="30" required>
+			<section class="row" style="margin: auto;" id="sect2wrapper">
+				<section class="col-sm-6" id="tab-box">
+					<section class="tabbable" id="two-section-boxes">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab" id="tab-head">Reach Us</a></li>
+							<li><a href="#tab2" data-toggle="tab" id="tab-head">About</a></li>
+						</ul>
+						<section class="tab-content">
+							<section class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Main Location </h4>
 								
-								<br>
-								<label for="mobile_number" class="label_select">Mobile Number</label><br>
-								<input type="tel" name="mobile_number" placeholder="Mobile Number (10 digits)" class="type-1" id="mobile_number" pattern="[0-9]{10}" title="10 Digit Mobile Number" maxlength="10" required>
-								
-								<br>
-								<label for="email" class="label_select">E-mail</label><br>
-								<input type="email" name="email" placeholder="Email id" class="type-1" id="email" maxlength="40" required>
-								
-								<br>
-								<label for="remark" class="label_select">Remarks</label><br>
-								<textarea name="remark" id="remark" maxlength="500" placeholder="Remarks !!" required></textarea>
-								<br>
-								<input type="submit" value="Submit" class="type-2" onclick="">
-							</fieldset>
-						</form>
-					</div>
-				</div>
-				<!-- end code for form -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.332991457479!2d77.61923355!3d12.93448565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc97522d51d6ff993!2sNIIT+Regional+Office+-+StackRoute!5e0!3m2!1sen!2sin!4v1566383592623!5m2!1sen!2sin" width="100%" height="300" frameborder="0"  allowfullscreen></iframe>
+								<p>
+									<br>
+									94-95, 4th B Cross Rd
+									<br>
+									Koramangala Industrial Layout
+									<br>
+									Koramangala
+									<br>
+									Bengaluru, Karnataka 560034
+								</p>
+							</section><!-- end tab-pane -->
+							
+							<section class="tab-pane" id="tab2">
+									<p>
+										Interest in photography websites has exploded over the last 10 years, largely thanks to the developments in digital photography. Cameras and computers have become cheaper and more powerful, software more sophistocated and printers can now print photos that are as good (if not better) than anything produced in a chemical darkroom. Now, once you’ve acquired a digital setup, the economic restrictions of film and development costs have been removed and the cost of photography is virtually nil.
+										<br>
+										<br>
+										Along with these developments in photography has been the parallel development of the Web. Ten years ago websites were largely clumsy, HTML driven constructions. Today, contemporary photographers have powerful tools such as WordPress and DreamWeaver with which to develop their websites. Photographers can also sell their work through companies such as PhotoShelter or ImageKind, and through photo libraries such as Alamy and iStockPhoto, opening up new revenue streams.
+										<br>
+										<br>
+										The result is that photographers are finding new and exciting ways to showcase their best work online. We took a look at some of the beautiful photography websites that we could find, analyzing the design trends and the reasons why these websites work.
+									</p>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal" id="modal-button"><span class="glyphicon glyphicon-hand-up"></span> Give your feedback</a>
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" style="color: white; opacity: 1;" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Give us your feedback</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<form name="myform" method="get" id="form-wrapper" style="padding: 10px 20px;">
+													<label for="name" class="label_select">Name</label><br>
+													<input type="text" name="name" class="type-1" placeholder="Your Name" id="name" maxlength="30" required>
+													
+													<br>
+													<label for="mobile_number" class="label_select">Mobile Number</label><br>
+													<input type="tel" name="mobile_number" placeholder="Mobile Number (10 digits)" class="type-1" id="mobile_number" pattern="[0-9]{10}" title="10 Digit Mobile Number" maxlength="10" required>
+													
+													<br>
+													<label for="email" class="label_select">E-mail</label><br>
+													<input type="email" name="email" placeholder="Email id" class="type-1" id="email" maxlength="40" required>
+													
+													<br>
+													<label for="remark" class="label_select">Remarks</label><br>
+													<textarea name="remark" id="remark" maxlength="500" placeholder="Remarks !!" required></textarea>
+													<br>
+													<input type="submit" value="Submit" class="type-2" onclick="">
+												</form>
+											</div><!-- end modal-body -->
+											
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+							</section><!-- end tab-pane -->
+						</section><!-- end tab-content -->
+					</section><!-- end tabbable -->
+				</section>
 				
 				<!-- code for listgroup -->
-				<div class="col-sm-6" >
-					<div class="panel" id="two-section-boxes">
+				<section class="col-sm-6" id="list-group-box">
+					<section class="panel" id="two-section-boxes">
 						<h4 id="list-group-heading">Our Partners</h4>
-						<div class="list-group">
+						<section class="list-group">
 							<a href="http://500px.com/" target="_blank" class="list-group-item">
 								<h4 class="list-group-item-header">500px</h4>
 								<p>If it's inspirational images you're after then look no further than 500px. Founded by Oleg Gutsol and Evgeny Tchebotarev, this online photography community is a place to gain exposure, find inspiration and connect with other photographers. With a library of over six million photos you'll never run out of pretty pictures to look at and feel inspired by.</p>
@@ -253,55 +299,55 @@
 									If it's inspirational images you're after then look no further than 500px. Founded by Oleg Gutsol and Evgeny Tchebotarev, this online photography community is a place to gain exposure, find inspiration and connect with other photographers. With a library of over six million photos you'll never run out of pretty pictures to look at and feel inspired by.
 								</p>
 							</a>
-						</div>
-					</div>
-				</div>
+						</section>
+					</section>
+				</section>
 				<!-- end code for listgroup -->
-			</div>
+			</section>
 			<!-- end code for two-section-boxes -->
 	
 	
 	
-		</div>
-	</div>
+		</section>
+	</section>
 
 
 	<!-- code for footer -->
-	<footer>
-		<div class="container-fluid" >
-			<div class="row"  id="footer-wrapper">
-				<div class="col-sm-6" style="padding: 0px;">
-					<div class="panel" id="footer-boxes">
+	<footer id="footer-back">
+		<section class="container" >
+			<section class="row"  id="footer-wrapper">
+				<section class="col-sm-6" style="padding: 0px;">
+					<section class="panel" id="footer-boxes-left">
 						<p>
 							This website has been developed by Avinash Kumar Prasad for learning  and development purpose. 
 							<br>
 							Lets try some cool things with &copy; and &trade; and also &reg;
 						</p>
-					</div>
-				</div>
+					</section>
+				</section>
 
-				<div class="col-sm-6">
-					<div class="panel" id="footer-boxes">
-						<div class="panel-heading">
+				<section class="col-sm-6">
+					<section class="panel" id="footer-boxes-right">
+						<section class="panel-heading">
 							<h4>Spread the news..</h4>
-						</div>
-						<div class="social">
+						</section>
+						<section class="social">
 							<ul>
 								<li> <a href="#"> <img src="img/google-plus-g-brands.svg" alt="google-plus"></a> </li>
 								<li> <a href="#"> <img src="img/facebook-f-brands.svg" alt="facebook"></a> </li>
 								<li> <a href="#"> <img src="img/instagram-brands.svg" alt="instagram"></a> </li>
-								<li> <a href="#"> <img src="img/quora-brands.svg" alt="quora"></a> </li>
-								<li> <a href="#"> <img src="img/flickr-brands.svg" alt="flicker"></a> </li>
+								<!-- <li> <a href="#"> <img src="img/quora-brands.svg" alt="quora"></a> </li> -->
+								<!-- <li> <a href="#"> <img src="img/flickr-brands.svg" alt="flicker"></a> </li> -->
 								<li> <a href="#"> <img src="img/pinterest-p-brands.svg" alt="pinterest"></a> </li>
 								<li> <a href="#"> <img src="img/linkedin-in-brands.svg" alt="linkedin"></a> </li>
 								<li> <a href="#"> <img src="img/reddit-alien-brands.svg" alt="reddit"></a> </li>
 								<li> <a href="#"> <img src="img/twitter-brands.svg" alt="twitter"></a> </li>					
 							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+						</section>
+					</section>
+				</section>
+			</section>
+		</section>
 	</footer>
 	<!-- end code for footer -->
 	

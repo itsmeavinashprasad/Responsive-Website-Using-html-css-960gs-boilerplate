@@ -8,27 +8,33 @@ body {
     background: url(../img/back.jpg) fixed;
     padding: 0px;
 }
-
+#navbar-back {
+    background: url(../img/footer_back.jpg);
+    border-style: none;
+}
+#nav-form, #navlinks {
+    font-family: 'Quicksand', sans-serif;
+}
 /* image link of the brand */
 #logo-image {
     height: 30px;
     width: 30px;
     filter: invert(1);
 }
-
+#navlink li a{
+    color: blue;
+    font-size: 20px;
+}
 
 #brand-name {
     color: white;
-    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
 
-#navlinks li a {
-    color: gray;
-}
+
 
 /* code section for navbar collapse */
-@media (max-width: 950px) {
+@media (max-width: 956px) {
     .navbar-header {
         float: none;
     }
@@ -68,7 +74,7 @@ body {
 
 /* carousel images */
 #my-carousel {
-    margin: 60px auto 0px auto;
+    margin: 60px auto 20px auto;
     max-height: 600px;
     max-width: 1200px;
     /* width: 1000px; */
@@ -78,7 +84,9 @@ body {
     height: 500px;
     width: 1000px;
 }
-
+.carousel-caption h4{
+    font-family: 'Quicksand', sans-serif;
+}
 #slide1 {
     background: url(../img/item1_1280-1200x600.jpg) top center no-repeat;
 }
@@ -96,6 +104,9 @@ body {
 @media (min-width: 1200px){
     #my-carousel .item{
         width: 1200px;
+    }
+    .carousel-caption h4{
+        font-size: 20px;
     }
 }
 @media (max-width: 991px){
@@ -117,7 +128,7 @@ body {
 #three-section-heading {
     margin: auto;
     padding: 0px 10px; 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     background: rgb(0,0,0,0.8);
     text-align: center;
@@ -130,7 +141,8 @@ body {
 }
 
 #three-section-boxes h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 #three-section-boxes{
     height: 350px;
@@ -161,8 +173,15 @@ body {
 
 /* Two section settings */
 #sect2wrapper {
+    margin: 0px;
     display: flex;
     flex-wrap: wrap;
+}
+#tab-box{
+    padding-left: 0px;
+}
+#list-group-box {
+    padding-right: 0px;
 }
 #two-section-boxes {
     height: 580px;
@@ -190,6 +209,32 @@ body {
 
 /* END Two section settings */
 
+
+/* Tabs styling */
+#tab1, #tab2 {
+    color: white;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+#tab1, #tab2 p{
+    margin: 10px;
+    font-size: 15px;
+}
+#tab-head{
+    font-family: 'Quicksand', sans-serif;
+}
+/* end Tabs styling */
+
+
+/* modal settings */
+.modal-content {
+    background: black;
+}
+#modal-button{
+    margin-left: 10px;
+}
+/* end modal settings */
+
 /* form settings */
 #form-wrapper {
     display: flex;
@@ -200,8 +245,8 @@ body {
 	height: 30px;
 	border-radius: 5px;
     margin: 10px auto;	
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Quicksand', sans-serif;
+    color: black;
 }
 
 .type-2 {
@@ -212,8 +257,9 @@ body {
 	border-style: none;
     font-size: 15px;
     color: black;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    
 }
 
 .type-2:hover {
@@ -226,13 +272,13 @@ textarea {
 	border-radius: 5px;
 	margin: 10px auto;
     resize: none;	
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Quicksand', sans-serif;
+    color: black;
 }
 
 .label_select {
     cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;    
 }
 fieldset{
@@ -240,7 +286,7 @@ fieldset{
     border: 1px solid white;
     padding: 10px;
     height: auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 legend {
     color: white;
@@ -251,7 +297,7 @@ legend {
     padding: 0px 10px;
 }
 .list-group-item-header{
-    font-family: 'Lexend Giga', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .list-group-item-header:hover {
     letter-spacing: 5px;
@@ -261,29 +307,33 @@ legend {
     background: transparent;
     color: white;
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* end listgroup settings */
 
 /* footer settings */
+#footer-back {
+    background: url(../img/footer_back.jpg);
+
+}
 #footer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    background: url(../img/footer_back.jpg);
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
+    /* padding: 10px 20px; */
+    font-family: 'Quicksand', sans-serif;
 
 }
-#footer-boxes {
+#footer-boxes-left, #footer-boxes-right {
     background: transparent;
     color: white;
+    /* padding: 0px 10px; */
 }
 
 /* end footer settings */
 .social li{
 	display: inline;
-	padding-right: 10px;
+	/* padding-right: 10px; */
 }
 .social img{
 	height: 35px;
