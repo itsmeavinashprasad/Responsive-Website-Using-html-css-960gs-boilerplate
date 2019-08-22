@@ -7,8 +7,11 @@ body {
 
 
 .main {
-    background: url(../img/back.jpg) fixed;
-    padding: 0px;
+    background: url(../img/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #navbar-back {
     background: url(../img/footer_back.jpg);
@@ -213,6 +216,12 @@ body {
         height: auto;
         width: 100%;
     }
+    #tab-box{
+        padding-right: 0px;
+    }
+    #list-group-box {
+        padding-left: 0px;
+    }
 }
 
 /* END Two section settings */
@@ -337,22 +346,33 @@ a.list-group-item:focus {
 #footer-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
     /* padding: 10px 20px; */
     font-family: 'Quicksand', sans-serif;
 
 }
+.footer-col {
+    padding: 15px;
+}
 #footer-boxes-left, #footer-boxes-right {
     background: transparent;
     color: white;
-    /* padding: 0px 10px; */
+    margin-bottom: 0px;
+}
+@media (max-width: 992px){
+    #footer-boxes-right .panel-heading {
+        padding-left: 0px;
+    }
 }
 
+
 /* end footer settings */
-.social li{
-	display: inline;
-	/* padding-right: 10px; */
+.social-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.social img{
+.social-items img{
 	height: 35px;
 	width: 35px;
 	filter: invert(1);
