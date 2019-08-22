@@ -1,6 +1,8 @@
 /* setting margin of whole body to 0 */
 body {
     margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 
@@ -112,6 +114,7 @@ body {
 @media (max-width: 991px){
     #my-carousel .item{
         width: 720px;
+        /* height: 360px; */
     }
 }
 
@@ -145,7 +148,7 @@ body {
     text-align: center;
 }
 #three-section-boxes{
-    height: 350px;
+    height: 320px;
     background: rgba(148, 103, 25, 0.5);
     color: white;
 }
@@ -155,6 +158,11 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+@media (max-width: 1199px){
+    #three-section-boxes {
+        height: 400px;
+    }
+}
 
 @media (max-width: 992px){
     #sect3wrapper {
@@ -215,6 +223,7 @@ body {
     color: white;
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
+    text-align: justify;
 }
 #tab1, #tab2 p{
     margin: 10px;
@@ -303,11 +312,19 @@ legend {
     letter-spacing: 5px;
     transition: 0.5s;
 }
-.list-group a{ 
+a.list-group-item { 
     background: transparent;
     color: white;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
+}
+a.list-group-item:hover{
+    background: rgb(230,230,230);
+    color: black;
+    transition: 0.2s;
+}
+a.list-group-item:focus {
+    text-decoration: none;
 }
 
 /* end listgroup settings */
